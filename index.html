@@ -55,5 +55,13 @@
     });
   </script>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const scene = document.querySelector("a-scene");
+    scene.addEventListener("loaded", () => {
+      console.log("Scene loaded");
+    });
+  });
+  </script>
 </body>
 </html>
